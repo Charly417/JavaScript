@@ -209,7 +209,7 @@ function agregarSimboloExclamacion(str) {
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
-  // Ejemplo: "Soy", "Henry" -> "Soy Henry"
+  // Ejemplo: "Soy", "John" -> "Soy John"
   // Tu código:
 
   return nombre+" "+ apellido;
@@ -1244,7 +1244,7 @@ function deObjetoAmatriz(objeto){
   function capToFront(s) {
     //Realiza una función que reciba como parámetro un string y mueva todas las letras mayúsculas
     //al principio de la palabra.
-    //Ejemplo: soyHENRY -> HENRYsoy
+    //Ejemplo: soyJOHN -> JOHNsoy
     //Escribe tu código aquí
     let arr1=[];
     let arr2=[];
@@ -1268,7 +1268,7 @@ function deObjetoAmatriz(objeto){
     //La función recibe una frase. 
     //Escribe una función que tome la frase recibida y la devuelva de modo tal que se pueda leer de izquierda a derecha 
     //pero con cada una de sus palabras invertidas, como si fuera un espejo.
-    //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
+    //Ej: Recibe ---> "The John Challenge is close!" || Devuelve ---> "ehT nhoJ egnellahC si !esolc"
     //Escribe tu código aquí
   arr1=str.split(" ");
   let final="";
